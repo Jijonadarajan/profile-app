@@ -17,16 +17,16 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   final CarouselSliderController _carouselController =
       CarouselSliderController();
   List<String> images = [
-    "assets/images/image11.jpeg",
-    "assets/images/image1.jpeg",
-    "assets/images/image9.jpeg",
-    "assets/images/image4.jpeg",
-    "assets/images/image8.jpeg",
-    "assets/images/image5.jpeg",
-    "assets/images/image10.jpeg",
-    "assets/images/image6.jpeg",
-    "assets/images/image3.jpeg",
-    "assets/images/image7.jpeg",
+    "assets/images/20221006122829_IMG_3355.JPG",
+    "assets/images/20221006124659__MG_3386.JPG",
+    "assets/images/IMG_20230430_221229_900.jpg",
+    "assets/images/IMG_20230508_140449_591.jpg",
+    "assets/images/IMG_20240201_141029_375.jpg",
+    "assets/images/IMG_20240206_110440_195.jpg",
+    "assets/images/IMG_20240206_110440_195.jpg",
+    "assets/images/IMG_20240206_110440_261.jpg",
+    "assets/images/IMG_20240428_221155_891.jpg",
+    "assets/images/IMG_20240428_221155_891.jpg",
   ];
 
   @override
@@ -102,8 +102,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             delayAfterScrollInput: const Duration(seconds: 1),
                             child: Column(
                                 children: images
-                                    .map((e) => ImageContainer(
-                                          image: e,
+                                    .map((h) => ImageContainer(
+                                          image: h,
                                         ))
                                     .toList())),
                       ),
